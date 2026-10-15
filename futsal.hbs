@@ -1,0 +1,35 @@
+{
+  "name": "Futsal Standard",
+  "type": "futsal",
+  "width": 550,
+  "height": 240,
+  "cameraWidth": 0,
+  "cameraHeight": 0,
+  "maxWidth": 0,
+  "maxHeight": 0,
+  "spawnDistance": 200,
+  "bg": { "type": "hockey", "width": 550, "height": 240, "kickOffRadius": 80, "cornerRadius": 0 },
+  "vertexes": [
+    { "x": -550, "y": 240, "bounciness": 1, "cMask": ["ball"] },
+    { "x": -550, "y": -240, "bounciness": 1, "cMask": ["ball"] },
+    { "x": 550, "y": 240, "bounciness": 1, "cMask": ["ball"] },
+    { "x": 550, "y": -240, "bounciness": 1, "cMask": ["ball"] },
+    { "x": -550, "y": 80, "bounciness": 1, "cMask": ["ball"] },
+    { "x": -550, "y": -80, "bounciness": 1, "cMask": ["ball"] },
+    { "x": 550, "y": 80, "bounciness": 1, "cMask": ["ball"] },
+    { "x": 550, "y": -80, "bounciness": 1, "cMask": ["ball"] }
+  ],
+  "segments": [
+    { "v0": 0, "v1": 1, "bounciness": 1, "cMask": ["ball"] },
+    { "v0": 2, "v1": 3, "bounciness": 1, "cMask": ["ball"] }
+  ],
+  "goals": [
+    { "p0": [-550, -80], "p1": [-550, 80], "team": "red" },
+    { "p0": [550, -80], "p1": [550, 80], "team": "blue" }
+  ],
+  "discs": [],
+  "planes": [],
+  "joints": [],
+  "redSpawnPoints": [],
+  "blueSpawnPoints": []
+}
